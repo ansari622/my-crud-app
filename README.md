@@ -10,7 +10,7 @@ A fully responsive and dynamic **CRUD (Create, Read, Update, Delete)** web appli
 
 ![screenshot] (https://github.com/ansari622/my-crud-app/blob/main/screenShot%201.PNG?raw=true)
 ![screenshot] (https://github.com/ansari622/my-crud-app/blob/main/screenShot%202.PNG?raw=true)
-![screenshot] ()
+![screenshot] (https://github.com/ansari622/my-crud-app/blob/main/screenShot%203.PNG?raw=true)
 
 ---
 
