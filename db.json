@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": "1754070281756",
+      "name": "hamid",
+      "email": "hamid@gmail.com",
+      "password": "Hamid4334",
+      "role": "manager",
+      "dob": "2025-08-15T00:00:00.000Z"
+    },
+    {
+      "id": "1754297871653",
+      "name": "Zahid ",
+      "email": "zahid@gmail.com",
+      "password": "Ansari53224",
+      "role": "admin",
+      "dob": "2006-06-07T00:00:00.000Z"
+    },
+    {
+      "id": "1754297929518",
+      "name": "imran",
+      "email": "kmato@gmai.com",
+      "password": "Being@human42",
+      "role": "manager",
+      "dob": "2001-02-14T00:00:00.000Z"
+    },
+    {
+      "id": "1754297958906",
+      "name": "haider",
+      "email": "khan@gmail.com",
+      "password": "Khan53323",
+      "role": "user",
+      "dob": "2025-08-16T00:00:00.000Z"
+    },
+    {
+      "id": "1754298177500",
+      "name": "tasdeek",
+      "email": "tasdeek@gmail.com",
+      "password": "Zasdeek@gmail.com3",
+      "role": "developr",
+      "dob": "2007-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "1754298322185",
+      "name": "arman",
+      "email": "aman@gmail.com",
+      "password": "Aman3434",
+      "role": "user",
+      "dob": "2000-06-14T00:00:00.000Z"
+    },
+    {
+      "id": "1754304328024",
+      "name": "rayyan",
+      "email": "ry622@gmail.com",
+      "password": "Rayyan3456",
+      "role": "admin",
+      "dob": "2025-08-02T00:00:00.000Z"
+    },
+    {
+      "id": "1754304395256",
+      "name": "shadab",
+      "email": "shadab@gmail.com",
+      "password": "Shadab3552",
+      "role": "manager",
+      "dob": "1997-06-19T00:00:00.000Z"
+    },
+    {
+      "id": "1754304470071",
+      "name": "tauheed",
+      "email": "tauheed@gmail.com",
+      "password": "tauheeD41235r",
+      "role": "dev",
+      "dob": "2024-07-11T00:00:00.000Z"
+    },
+    {
+      "id": "1754304518695",
+      "name": "shahid",
+      "email": "shahid@gmail.com",
+      "password": "Shahid435r",
+      "role": "admin",
+      "dob": "2017-03-09T00:00:00.000Z"
+    },
+    {
+      "id": "1754304912483",
+      "name": "zahid",
+      "email": "zahid@gmail.com",
+      "password": "Zasdfg2323",
+      "role": "user",
+      "dob": "2025-08-09T00:00:00.000Z"
+    },
+    {
+      "id": "1754308714839",
+      "name": "zahid",
+      "email": "zahid@gmail.com",
+      "password": "Zashdedj5332",
+      "role": "user",
+      "dob": "2007-02-07T00:00:00.000Z"
+    }
+  ]
+}

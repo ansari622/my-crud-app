@@ -1,0 +1,35 @@
+<div class="table-container">
+  <div class="table-wrapper">
+    <table class="user-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>DOB</th>
+          <th>Role</th>
+          <th>Email</th>
+          <th>Password</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{ user.id }}</td>
+          <td>{{ user.name }}</td>
+          <td>{{ user.dob | date: 'dd/MM/yyyy' }}</td>
+          <td>{{ user.role }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.password }}</td>
+          <td class="actions-cell">
+            <button class="edit-btn" (click)="updateUser(user.id)">
+              <i class="fa-solid fa-pen-to-square"></i>
+            </button>
+            <button class="delete-btn" (click)="deleteUser(user.id)">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="navbar">
+  <div class="logo">
+    <h1>My Crud App</h1>
+  </div>
+
+  <div class="hamburger" (click)="toggleMenu()">
+    &#9776;
+  </div>
+
+  <ul class="navlink" [class.open]="menuOpen">
+    <li><a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+    <li><a routerLink="/form" routerLinkActive="active">Add User</a></li>
+    <li><a routerLink="/list" routerLinkActive="active">List</a></li>
+    <!-- <li><a routerLink="/manage" routerLinkActive="active">Edit</a></li> -->
+  </ul>
+</div>

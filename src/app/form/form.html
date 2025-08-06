@@ -1,0 +1,46 @@
+<div class="form-page">
+  <div class="form-content">
+    <h1>Add New User</h1>
+    <form [formGroup]="profileForm" (ngSubmit)="addUser()">
+
+      <div class="input">
+        <label for="name">Name <span class="required" *ngIf="name?.hasError('required')">*</span></label>
+        <input type="text" id="name" placeholder="Enter your name" formControlName="name">
+        <p class="error" *ngIf="name?.invalid && name?.touched"><i class="fa-solid fa-circle-exclamation"></i>Name is
+          required</p>
+      </div>
+
+      <div class="input">
+        <label for="email">Email <span class="required" *ngIf="email?.hasError('required')">*</span></label>
+        <input type="email" id="email" placeholder="Enter your email" formControlName="email">
+        <p class="error" *ngIf="email?.invalid && email?.touched"><i class="fa-solid fa-circle-exclamation"></i>Enter
+          valid email</p>
+      </div>
+
+      <div class="input">
+        <label for="password">Password <span class="required" *ngIf="password?.hasError('required')">*</span></label>
+        <input type="password" id="password" placeholder="Enter your password" formControlName="password">
+        <p class="error" *ngIf="password?.invalid && password?.touched"><i
+            class="fa-solid fa-circle-exclamation"></i>Min 6 chars, at least 1 uppercase, 1 digit</p>
+      </div>
+
+      <div class="input">
+        <label for="role">Role <span class="required" *ngIf="role?.hasError('required')">*</span></label>
+        <input type="text" id="role" placeholder="e.g., admin, user" formControlName="role">
+        <p class="error" *ngIf="role?.invalid && role?.touched"><i class="fa-solid fa-circle-exclamation"></i>Enter your
+          role</p>
+      </div>
+
+      <div class="input">
+        <label for="dob">D O B <span class="required" *ngIf="dob?.hasError('required')">*</span></label>
+        <input type="date" id="dob" formControlName="dob">
+        <p class="error" *ngIf="dob?.invalid && dob?.touched"><i class="fa-solid fa-circle-exclamation"></i>Format:
+          YYYY-MM-DD</p>
+      </div>
+
+      <button type="submit">
+        <button type="submit">{{ isEditMode ? 'Update' : 'Add' }}</button>
+      </button>
+    </form>
+  </div>
+</div>

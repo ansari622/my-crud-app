@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+/* Colors */
+   :root{
+     --white-color:#fff;
+    --dark-color: #252525;
+    --primary-color: #3b141c;
+    --secondary-color: #f3961c;
+    --light-pink-color:#f4f4f5;
+    --medium-gray-color:#ccc; 
+   }
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body::-webkit-scrollbar {
+    background-color:  #3b141c;
+  width: 1px; /* Smaller scrollbar width */
+}
