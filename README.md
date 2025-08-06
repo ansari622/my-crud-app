@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MyApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.3.
@@ -57,3 +58,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# my-crud-app
+>>>>>>> 0bd2ec07093631cb777c27b4f2c8e5db0290aea4
